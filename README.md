@@ -17,6 +17,7 @@ Dataset Handling: Loads the ASL sign language dataset from CSV files, separating
 Preprocessing: Converts images into the correct shape and normalizes pixel values.
 
 Data Augmentation: Applies transformations like rotation, width shift, height shift, shear, zoom, and fill mode to augment the training data.
+
 CNN Architecture: Constructs a sequential model with convolutional layers, max pooling, dropout for regularization and to prevent overfitting, and dense layers for classification.
 
 Training: Trains the model with the augmented data, validating its performance using a separate test set (95% Test accuracy).
