@@ -7,8 +7,6 @@ This system consists of two primary components: a Convolutional Neural Network (
  2. Keras
  3. OpenCV
 
-![Screenshot](Screenshot1.png)
-
 ## 1. Model Training Script (asl_cnn_v2.py)
 ### Overview
 The training script builds and trains a CNN to recognize ASL signs represented in static images. It processes the sign language dataset, applies data augmentation to improve generalization, and finally trains the CNN model.
@@ -48,7 +46,7 @@ Place your hand within the specified ROI and perform ASL signs. The script will 
 
 
 # How to run:
-![Screenshot](Screenshot2.png)
+![Screenshot](Screenshot_2024-03-20_at_11.36.52_PM.png)
 
 ### 1. Download the scripts and save asl-cnn-v2.py as .keras type
 ### 2. Change file path in ocv_asl_roi.py model loading to correct path for .keras file
