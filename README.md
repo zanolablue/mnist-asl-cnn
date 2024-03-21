@@ -52,4 +52,4 @@ Place your hand within the specified ROI and perform ASL signs. The script will 
 ### 1. Download the scripts and save asl-cnn-v2.py as .keras type
 ### 2. Change file path in ocv_asl_roi.py model loading to correct path for .keras file
 ### 3. Use command line and run (e.g python ocv_asl_roi.py for Mac terminal)
-
+### 4. Press 'q' to exit program
