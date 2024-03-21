@@ -2,6 +2,12 @@
 ### Author: Archie Galbraith <@zanolablue>
 This system consists of two primary components: a Convolutional Neural Network (CNN) model trained to recognize American Sign Language (ASL) signs from static images (asl_cnn_v2.py) and a live prediction script (ocv_asl_roi.py) that uses a webcam to capture video frames and predict signs in real-time using the trained model.
 
+## Dependencies:
+ 1. Tensorflow
+ 2. Keras
+ 3. OpenCV
+
+![Screenshot](Screenshot1.png)
 
 ## 1. Model Training Script (asl_cnn_v2.py)
 ### Overview
@@ -39,4 +45,12 @@ Prediction and Display: Predicts the ASL sign from the ROI and displays the pred
 Update the model path in ocv_asl_roi.py to point to the correct path for asl_cnn_v2.keras.
 Run ocv_asl_roi.py, ensuring you have a webcam connected and accessible.
 Place your hand within the specified ROI and perform ASL signs. The script will display the predicted sign and its certainty on the screen.
+
+
+# How to run:
+![Screenshot](Screenshot2.png)
+
+### 1. Download the scripts and save asl-cnn-v2.py as .keras type
+### 2. Change file path in ocv_asl_roi.py model loading to correct path for .keras file
+### 3. Use command line and run (e.g python ocv_asl_roi.py for Mac terminal)
 
