@@ -46,7 +46,7 @@ Place your hand within the specified ROI and perform ASL signs. The script will 
 
 
 # How to run:
-![Screenshot](Screenshot_2024-03-20_at_11.36.52_PM.png)
+![Screenshot]([Screenshot_2024-03-20_at_11.36.52_PM.png](https://github.com/zanolablue/mnist-asl-cnn/blob/main/Screenshot%202024-03-20%20at%2011.36.52%20PM.png))
 
 ### 1. Download the scripts and save asl-cnn-v2.py as .keras type
 ### 2. Change file path in ocv_asl_roi.py model loading to correct path for .keras file
